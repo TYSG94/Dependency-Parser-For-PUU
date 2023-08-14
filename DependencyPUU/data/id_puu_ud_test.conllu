@@ -1,0 +1,55 @@
+# sent_id = test-s1
+# 3. pekerja/buruh adalah setiap orang yang bekerja dengan menerima upah atau imbalan dalam bentuk lain.
+1-2	3.	_	_	_	_	_	_	_	_
+1	3	3	NOUN	Z--	_	3	nummod	_	SpaceAfter=No|MorphInd=^3<c>_NSD$
+2	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
+3	pekerja	pekerja	NOUN	NSD	_	8	nsubj	_	SpaceAfter=No|MorphInd=^pekerja<n>_NSD$
+4	/	/	SYM	Z--	_	5	punct	_	SpaceAfter=No|MorphInd=^/<z>_Z--$
+5	buruh	buruh	NOUN	NSD	_	3	compound	_	MorphInd=^buruh<n>_NSD$
+6	adalah	adalah	AUX	O--	_	8	cop	_	MorphInd=^adalah<o>_O--$
+7	setiap	setiap	DET	B--	_	8	det	_	MorphInd=^setiap<b>_B--$
+8	orang	orang	NOUN	NSD	_	0	ROOT	_	MorphInd=^orang<n>_NSD$
+9	yang	yang	PRON	S--	_	10	nsubj	_	MorphInd=^yang<s>_S--$
+10	bekerja	bekerja	VERB	VSA	_	8	acl	_	MorphInd=^bekerja<v>_VSA$
+11	dengan	dengan	ADP	R--	_	12	case	_	MorphInd=^dengan<r>_R--$
+12	menerima	menerima	VERB	VSA	_	10	xcomp	_	MorphInd=^meN+terima<v>_VSA$
+13	upah	upah	NOUN	NSD	_	12	obj	_	MorphInd=^upah<n>_NSD$
+14	atau	atau	CCONJ	H--	_	15	cc	_	MorphInd=^atau<h>_H--$
+15	imbalan	imbalan	NOUN	NSD	_	13	conj	_	MorphInd=^imbalan<n>_NSD$
+16	dalam	dalam	ADP	ASP	_	17	case	_	MorphInd=^dalam<r>_R--$
+17	bentuk	bentuk	NOUN	NSD	_	13	nmod	_	MorphInd=^bentuk<n>_NSD$
+18	lain	lain	ADJ	ASP	_	17	amod	_	SpaceAfter=No|MorphInd=^lain<q>_ASP$
+19	.	.	PUNCT	Z--	_	8	punct	_	MorphInd=^.<z>_Z--$
+1-2	4.	_	_	_	_	_	_	_	_
+
+# sent_id = test-s2
+# 4. pemberi kerja adalah orang perseorangan, pengusaha, badan hukum atau badan-badan lainnya yang mempekerjakan tenaga kerja dengan membayar upah atau imbalan dalam bentuk lain.
+1	4	4	NOUN	NSD	_	3	nummod	_	SpaceAfter=No|MorphInd=^4<c>_NSD$
+2	.	.	PUNCT	Z--	_	1	punct	_	MorphInd=^.<z>_Z--$
+3-4	pemberi kerja	_	_	_	_	_	_	_	_
+3	pemberi	penberi	NOUN	NSD	_	6	nsubj	_	MorphInd=^peN+beri<v>_NSD$
+4	kerja	kerja	NOUN	NSD	_	3	compound	_	MorphInd=^kerja<n>_NSD$
+5	adalah	adalah	AUX	O--	_	6	cop	_	MorphInd=^adalah<o>_O--$
+6	orang	orang	NOUN	NSD	_	0	ROOT	_	MorphInd=^orang<n>_NSD$
+7	perseorangan	perseorangan	NOUN	NSD	_	6	compound	_	SpaceAfter=No|MorphInd=^per+se+orang<n>+an_NSD$
+8	,	,	PUNCT	Z--	_	9	punct	_	MorphInd=^,<z>_Z--$
+9	pengusaha	penusaha	NOUN	NSD	_	6	conj	_	SpaceAfter=No|MorphInd=^peN+usaha<n>_NSD$
+10	,	,	PUNCT	Z--	_	11	punct	_	MorphInd=^,<z>_Z--$
+11	badan	badan	NOUN	NSD	_	9	conj	_	MorphInd=^badan<n>_NSD$
+12	hukum	hukum	NOUN	NSD	_	11	compound	_	MorphInd=^hukum<n>_NSD$
+13	atau	atau	CCONJ	H--	_	14	cc	_	MorphInd=^atau<h>_H--$
+14	badan-badan	badan-badan	NOUN	NSD	_	11	conj	_	MorphInd=^badan-badan<x>_NSD$
+15	lainnya	lainnya	ADJ	D--	_	14	amod	_	MorphInd=^lainnya<d>_D--$
+16	yang	yang	PRON	S--	_	17	nsubj	_	MorphInd=^yang<s>_S--$
+17	mempekerjakan	menpekerjakan	VERB	VSA	_	14	acl	_	MorphInd=^meN+pekerja<n>+kan_VSA$
+18	tenaga	tenaga	NOUN	NSD	_	17	obj	_	MorphInd=^tenaga<n>_NSD$
+19	kerja	kerja	NOUN	NSD	_	18	compound	_	MorphInd=^kerja<n>_NSD$
+20	dengan	dengan	ADP	R--	_	21	case	_	MorphInd=^dengan<r>_R--$
+21	membayar	menbayar	VERB	VSA	_	17	xcomp	_	MorphInd=^meN+bayar<v>_VSA$
+22	upah	upah	NOUN	NSD	_	21	obj	_	MorphInd=^upah<n>_NSD$
+23	atau	atau	CCONJ	H--	_	24	cc	_	MorphInd=^atau<h>_H--$
+24	imbalan	imbalan	NOUN	NSD	_	22	conj	_	MorphInd=^imbalan<n>_NSD$
+25	dalam	dalam	ADP	ASP	_	26	case	_	MorphInd=^dalam<r>_R--$
+26	bentuk	bentuk	NOUN	NSD	_	22	nmod	_	MorphInd=^bentuk<n>_NSD$
+27	lain	lain	ADJ	ASP	_	26	amod	_	SpaceAfter=No|MorphInd=^lain<q>_ASP$
+28	.	.	PUNCT	Z--	_	6	punct	_	MorphInd=^.<z>_Z--$
